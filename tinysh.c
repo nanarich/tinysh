@@ -45,7 +45,7 @@ int tiny_execute(char** params)
 }
 
 
-int main()
+int main(argc, **argv)
 {
         char cmd[MAX_COMMAND +1];
         char *params[MAX_NUMBER_PARAMS +1];
